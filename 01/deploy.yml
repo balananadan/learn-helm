@@ -22,3 +22,5 @@ spec:
           env:
             - name: sample
               value: {{ .Values.sample_env | quote }}
+
+
